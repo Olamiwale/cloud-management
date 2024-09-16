@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-zinc-200 flex flex-col justify-between"
+      className="w-full h-screen bg-zinc-300 flex flex-col justify-between"
     >
       <div className="w-[90%] m-auto grid grid-cols-2 max-sm:flex flex-col">
         <div className="flex flex-col justify-center w-full py-8">
@@ -22,7 +22,7 @@ export default function Hero() {
           </h1>
           <p className="text-2xl">This is our Tech brand.</p>
           <div className="flex justify-center pt-10">
-            <button className="border bg-gray-300 w-[200px] p-4 rounded-lg max-md:w-[100px]">
+            <button className="bg-gray-400/50 hover:shadow-lg w-[200px] p-4 rounded-lg max-md:w-[100px]">
               Get Started
             </button>
           </div>
